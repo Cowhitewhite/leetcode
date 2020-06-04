@@ -25,18 +25,17 @@ class Solution11 {
 
     public static int maxSubArray(int[] nums) {
 
-        int res = nums[0];
+        int ans = nums[0];
         int sum = 0;
-        for (int num : nums) {
-            if (num > 0){
+        for(int num: nums) {
+            if(sum > 0) {
                 sum += num;
-            }else {
+            } else {
                 sum = num;
             }
-            res = Math.max(res,sum);
+            ans = Math.max(ans, sum);
         }
-
-        return res;
+        return ans;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

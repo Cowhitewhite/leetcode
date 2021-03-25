@@ -16,10 +16,10 @@ public class MixCalculate {
 
     //设置优先级
     private static void init(){
-        map.put('*',1);
-        map.put('/',1);
-        map.put('+',2);
-        map.put('-',2);
+        map.put('*',2);
+        map.put('/',2);
+        map.put('+',1);
+        map.put('-',1);
         map.put('(',0);
     }
     /**

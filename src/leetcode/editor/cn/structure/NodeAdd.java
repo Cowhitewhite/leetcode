@@ -1,6 +1,4 @@
-package leetcode.editor.cn;
-
-import java.util.LinkedList;
+package leetcode.editor.cn.structure;
 
 /**
  * @author ChenHao

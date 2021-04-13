@@ -1,4 +1,4 @@
-package leetcode.editor.cn;
+package leetcode.editor.cn.structure;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

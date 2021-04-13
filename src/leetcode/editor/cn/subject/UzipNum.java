@@ -1,4 +1,4 @@
-package leetcode.editor.cn;
+package leetcode.editor.cn.subject;
 /*
 HG[3|B[2|CA]]F -> HG[3|BCACA]F -> HGBCACABCACABCACAF
  */

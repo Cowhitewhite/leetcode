@@ -7,9 +7,9 @@ package leetcode.editor.cn.structure;
  */
 public class TreeNode<T> {
 
-    TreeNode left;
-    T data;
-    TreeNode<T> right;
+    public TreeNode left;
+    public T data;
+    public TreeNode<T> right;
 
     public TreeNode(TreeNode<T> left,T data,TreeNode<T> right) {
         this.data = data;
